@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NAOFP</title>
 
     <style>
@@ -10,17 +11,23 @@
             background-color: black;
         }
 
-        img {
+        .container {
             width: 100%;
-            height: auto;      /* ✅ fixes mobile issue */
-            display: block;    /* ✅ removes white line */
+        }
+
+        .container img {
+            width: 100%;
+            height: auto;
+            display: block;
         }
     </style>
 </head>
 
 <body>
 
-    <img src="header.png">
+    <div class="container">
+        <img src="header.png">
+    </div>
 
 </body>
 </html>
