@@ -4,6 +4,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NAOFP</title>
 
+    <!-- ✅ SEO (for Google) -->
+    <meta name="description" content="National Association for Future Physicians expanding access for the future of America through education, research, and opportunity.">
+    <meta name="keywords" content="future physicians, medical education, research platform, pre-med, NAOFP, immigrants, academic research">
+
     <style>
         html, body {
             margin: 0;
@@ -14,7 +18,7 @@
 
         .container {
             width: 100%;
-            line-height: 0; /* ✅ removes tiny image gaps */
+            line-height: 0; /* removes tiny image gaps */
         }
 
         .container img {
@@ -22,14 +26,30 @@
             height: auto;
             display: block;
         }
+
+        /* ✅ Invisible text for Google (NOT visible to users) */
+        .seo-text {
+            position: absolute;
+            left: -9999px;
+        }
     </style>
 </head>
 
 <body>
 
+    <!-- ✅ Your full-screen Canva design -->
     <div class="container">
         <img src="header.png">
     </div>
 
+    <!-- ✅ Google can read this, users cannot see it -->
+    <div class="seo-text">
+        <h1>National Association for Future Physicians</h1>
+        <p>
+        The National Association for Future Physicians (NAOFP) expands access for the future of America by supporting students, especially those from immigrant and underserved backgrounds, through education, research, and publication opportunities.
+        </p>
+    </div>
+
 </body>
 </html>
+``
